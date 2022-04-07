@@ -1,6 +1,17 @@
-var user=prompt("ente ryour name")
+var btnTranslate=document.querySelector("#btn-translate");
+var txtInput=document.querySelector("#txt-input");
+var outputDiv=document.querySelector("#output");
 
-var wel="theis is it!!"+ user;
+outputDiv.innerHTML="Translated text will come here"
+
+    console.log(txtInput);
+
+    function clickHandler()
+    {
+        console.log("clicked");
+        console.log("input", txtInput.value);
+
+    };
 
 
-//alert("hello");
+btnTranslate.addEventListener("click",clickHandler)

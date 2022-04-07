@@ -4,17 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana-Speak</title>
-    <script src="app.js" type="text/javascript">
-        
-    </script>
+    <title >Banana-Speak</title>
+
+    
+    <style>
+        textarea
+        {
+            width: 90%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+            background-color: rgb(248, 236, 109);
+
+
+
+
+        }
+        #output
+        {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+
+        }
+
+
+
+
+
+    </style>
+    
     
 
 </head>
 <body>
     <h1>
-        Talk Banana
+        <centre>Talk Banana</centre>
     </h1>
+    <textarea  id="txt-input"
+    placeholder="put your text here in english and we will 
+    convert in into bananaa"></textarea>
+    <button id="btn-translate">
+        Translate
+    </button>
+
+    <div style="font-size: large">
+        Output will be here👇
+    </div>
+
+    <div  id="output">
+        
+    </div>
+    <script src="app.js" type="text/javascript"></script>
     
 </body>
 </html>
