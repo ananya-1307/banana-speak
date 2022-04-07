@@ -9,6 +9,7 @@ outputDiv.innerHTML="Translated text will come here"
     function clickHandler()
     {
         console.log("clicked");
+        
         console.log("input", txtInput.value);
 
     };
