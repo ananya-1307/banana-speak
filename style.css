@@ -3,14 +3,18 @@ body{
     font-family: 'Indie Flower', cursive;
     margin:0px 0px 0px 0px;
     padding:0px 0px 0px 0px;
+    background-color: var(--color, rgb(255,245,230) );
    
 }
+
 header{
     height:10vh;
-    background-color:rgba(241, 226, 54, 0.993);
+    
     text-align: center;
     padding-top: 20px;
     margin-bottom: 50px;
+    background-blend-mode: darken;
+    background: linear-gradient(to right, #3498db, #e74c3c);
    
 }
 h1{
@@ -28,26 +32,35 @@ textarea{
     width:40%;
     border: 2px solid rgba(216, 140, 8, 0.37);
 }
-.btn{
-    background-color:rgba(241, 226, 54, 0.993);
-    height:40px;
-   font-family: 'Indie Flower', cursive;
-   font-weight: bold;
-    
-}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
 button{
     border-color:none; 
     border: none;
+    
 }
 p{
     font-weight: bold;
 }
 footer{
-    background-color: rgba(241, 226, 54, 0.993);;
+    
     text-align: center;
     display:flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to right, #3498db, #e74c3c);
+   
 }
 .p{
     width: 60%;
